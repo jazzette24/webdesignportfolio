@@ -10,12 +10,23 @@
 
 <body id="homepage">
 	<header>
-		<nav>
-			<div><a href="index2.html"><i class="fa fa-home"></i></a></div>
-			<div><a href="contact2.html"><i class="fa fa-mobile"></i></a></div>
-			<div><a href="portfolio.html"><i class="fa fa-book"></i></a></div>
-			<div><a href="services.html"><i class="fa fa-cogs"></i></a></div>
-		</nav>
+		<nav class="navbar navbar-default affix-top">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+				<span class="glyphicon glyphicon-menu-hamburger"></span>
+			</button>
+			<a class="navbar-brand" href="#">Brand</a>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Services</a></li>
+			</ul>
+		</div>
+	</nav>
+
 	</header>
 
 	<div class="hero_image">
@@ -109,6 +120,16 @@
 				<div><a href="services.html">Services</a></div>
 				</nav>
 			</footer>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127595379-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127595379-1');
+</script>
+
 
 </body>
 
